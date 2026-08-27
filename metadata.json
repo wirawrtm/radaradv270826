@@ -1,0 +1,10 @@
+{
+  "name": "Remix: RADAR ADVANTA API",
+  "description": "Interactive dashboard and API proxy for tracking and managing RADAR ADVANTA agriculture data, kiosks, and partners.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api",
+      "destination": "https://ais-pre-5a6afjgobl6oxlzhzq46nb-961275344911.asia-southeast1.run.app/api"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://ais-pre-5a6afjgobl6oxlzhzq46nb-961275344911.asia-southeast1.run.app/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
