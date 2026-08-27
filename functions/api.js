@@ -54,7 +54,7 @@ export async function onRequest(context) {
     // Create a new response so we can safely attach CORS headers
     const responseHeaders = new Headers(backendResponse.headers);
     responseHeaders.set("Access-Control-Allow-Origin", "*");
-    responseHeaders.set("Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS");
+    responseHeaders.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
     responseHeaders.set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With");
 
     return new Response(backendResponse.body, {
