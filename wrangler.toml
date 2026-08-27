@@ -1,10 +1,11 @@
-name = "radar-advanta"
+name = "radaradv270826"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = "dist"
 
 [assets]
 directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
 
 [vars]
 BACKEND_URL = "https://ais-pre-5a6afjgobl6oxlzhzq46nb-961275344911.asia-southeast1.run.app"
