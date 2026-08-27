@@ -10816,7 +10816,7 @@ const Dashboard = ({
                             check_circle
                           </span>
                           <p className="text-xs font-semibold text-emerald-800">
-                            ✅ LOT ditemukan di database!
+                            鉁 LOT ditemukan di database!
                           </p>
                         </div>
                         <div className="bg-white shadow-[0_4px_16px_rgba(21,75,226,0.06)] p-4 rounded-[20px] animate-in slide-in-from-top-2">
@@ -10875,7 +10875,7 @@ const Dashboard = ({
                             check_circle
                           </span>
                           <p className="text-xs font-semibold text-emerald-800">
-                            ✅ LOT ditemukan di database!
+                            鉁 LOT ditemukan di database!
                           </p>
                         </div>
                         <div className="bg-white shadow-[0_4px_16px_rgba(21,75,226,0.06)] p-4 rounded-[18px] animate-in slide-in-from-top-2">
@@ -10898,7 +10898,7 @@ const Dashboard = ({
                         </span>
                         <div className="flex flex-col">
                           <p className="text-xs font-bold text-red-700 leading-tight">
-                            ⚠️ LOT tidak ditemukan di database!
+                            鈿狅笍 LOT tidak ditemukan di database!
                           </p>
                           <p className="text-[10px] text-red-600 mt-0.5 font-medium leading-relaxed">
                             LOT ini belum terdaftar. Agar data stock tetap valid, Anda wajib melengkapi data Hybrid & Komoditas secara manual di bawah ini.
@@ -12916,7 +12916,7 @@ const Dashboard = ({
                       <span className="material-symbols-outlined text-[16px] animate-pulse text-amber-600">
                         info
                       </span>
-                      Geser tabel ke samping untuk melihat seluruh kolom bulan ↔
+                      Geser tabel ke samping untuk melihat seluruh kolom bulan 鈫
                     </div>
                   )}
                   <div className="overflow-x-auto min-w-full">
@@ -12958,79 +12958,1161 @@ const Dashboard = ({
                                 </button>
                               </th>
                               <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider min-w-[130px]">
-                                x��=is�ƒ��+&L*E��IQ��H�*>^���$���R�d� ID �@IW�}�� f���m%]e��}O����q�ߐ�O�Z8�
-V�Q�|�?������"�OHL��s�q�1[�B�n��*43��(zk͡���7v�Qg���������{d\;�a��ƝE�έpE���#7v�3� ��xFA�Y.�KK{�$&�`���e칾���)�ߓ
-C��N���N4�P�(ZX�<�u-�����:|�6�y���hT
-!kX�.��+r||L*U&�)�߅6�m�U�c
-+������
-+wLȡ�h7~��Pq�OϾ��Ө�mG;��=�a�PV�h'����g2��ΐ,n;��= 2�w�9� ��;x�x���\,�plE��������4w��
-�A��)G_�xA�������
-���� ��kp������]�y���/gݹ�h6�m�ڷ�R��C�g&v嬎��hMB�hw숖���Y����Vhl=/�[p�J���dٴ\�Ngq½{��� �<�x��8y�S�{�-���л�bn<s�W0����{��y�d�X�y'�b��%~���o@�t�����dL@�<0���þ��y��z` ��������@����
-����ü�حcٹ?ǣ�^�hf���#:+¿�7L���C�ۈ1�ș�2��������@h�c�v���9����d(�+��Н?�t�7օK9�(&n��`h��� �{ܼ�)�b{]�����Љ���a��a0vl�x�lu�U|��ȆQ���MB#�w��oe�Q�c�,�"�s�q�_��>�3�Aw�"�ۋ�?��#K�rǛX׷�i���14���Cb	��<���e���xLEj4]��Ӄ/��N4'��"��n�Ĳ��?�`;����-
-��^���h�b�fJ�˷hZ�h9���^�*�L��b�V�=q���052�n��^�~�����yU�F5�\y��!s٣T*�������#IP[��Ru�E,5�+���jӲ�@j\���#��ũ����)�~�2��X��T�y���x �PeE݋��k�?I_���Ė��6��_w����?��7X��U�� ��C,Q]S������5�^?�׊
-��@����Ϻ�U�g��_�i���d�������T�Dǖ�1�|o"�9Ut܊0�9Wй�����|�d�����
-�Gc�c�Ǵ�,K͞���8*���8x`\�V��uDO'��nF�2�2��ӳ�s˫1���U5�B��n�2�˼��-����Z^�uc�"F7�LhB~�n�%�k�S{�Nkw_��t�B5$��*�m�&r��Ք̬��_z����n���������%�`�o�phS}��b�P|��˼����
-.4N��}��ea���U���򕨤lK�ؾA��Xe�Tckk@����)!�:����^O2�R̨���+P�"�O2�C
-�B�)��|ܳ�i��K�r�wUeTu� V�u����~Yq/M��}ֽv��3�is�5��e��`}��������`���[��ى��$��r6��73_�\�Yg���*�<E��:��+��m1�X�ũ��uѳ�:���w�wO6�?��J�'^M����(�wR�0�
-D�m?���J�����?��Jͽ���ܜa�L5���L�(�*��*p.v�UQ�"I��A���ᝆ0�a�k��F��P��ĩ ����a��w��чftD�K��I̩��M�A�:Q� g��F��E�rN�@���j���Z"��W{��W[|�h�m+���*��VFWS �[�G>X�tjy�j.�
-A�r��a
- k8�X"�=~�h~�>(���a=8U2w�^��.�,�JMXm�͆yK'� ����Ua��&X|P�����e4s�Ⱥ����5]^E�3"6X�E�s=��AN�猯3yଽ؋-LXDW�<��f�y�6��b���"����#��;'�"a�1םfm��_�OŪ� JY}���*�Fz9ZFu.����5�^q(��h�lΠ��ʹ]�<�C�V�_:��t��SBA5F�KP�_qS�Q�
-�;T��g�u�ką^����̵mǗ�j�fT=55�F�#�|��*�@^��Þ���5O���'�k醫&y:��pV�o�}f�
-3���!���J �A���:�4�(�Ӷ��ō'gqpEv�6#�_��M���աը�A_0*��Q��Y୿h��N��>�����E�V��=eO&q �����Z�#�i�pWBɱ(�7n6����ɏ�Wu���p�>�=q9���b�h���g�ƃX�ŧYd?t*Ƹ�*�	m��I�Z��v]f0	�x{"hg7�BqV
-�9���H�H;�}Ve��ɛ
-�bA����P�%�8�ZΗ0$w���2�f�VÚ�'a�����K��P�KPU�Ϥ׉���ܪ�*�Xv�0������0w�vQY��Q�\�ck�=����VB����"�5��D�c��y�qY��m]˶�m�Y�����A�hj��*t�~Y8�؂/~�x�JЧmrѥD2e����8���%'���, (e�9&'ah���A�;q=��+�C��I��Ƴ����(�6����Ε�1�C���1���4��k�ol�����LJ�{9v�Mk<n�d��
-���ۤh)���b�-g�EnڃϪkT��~v����W�K楼����cv@�^�3;MefZ�ݬy�Y���p�.T����Z�`����Q(0�S��Pe��$!3�5Ď�P}�)�n�O�ϼL+(Ռr��]+� D�ꔫ����
-��V�D�~Ѭ��M]7cko�1R���0�;�3�(g
-sʰ�Ʋ���/���|?zL�e�,�'n8ؖ'Ut�w�{�^Ŋ����:�"G:�J/ޜ �rZZ-���:�Y���dB��)v���C�1�k�����z,".�i[�*��(�6Y��t�P|�F�њD��؉�C���s,�'�a>����)�ɤ.mns-z"w��($=�U8_FN�޶qa��.�	��F~7��x�`�
-�3��?֠�~Mi����(z��o'c�J=�����΀�y���r4wc(oE+LT�NJ�=�:k���I~����J�.tP	�n,�/y3]S�V�r'��-��r��M�KG]�6Hx�4L"˳f݆ԁ@S��V<�I�+S����[�"�6���"h�ikwd�� GVj+�
-	ȝ�q�hZ�ɏ9�D��q|@���R�9��ds��^Ͼ�]����1��.�>/�O; �l�t�3���ο{9x���r�Z���ݖR>-��L�~���x��nX�/��s���`Hc];"|�w�GB.��_8Y���=�o��^��ߺмLԱ��߫zBO��3z�ü5Ibu��,��0
-����x��m�Z�f�I��`B��dV����� f���*�}�����G'����2b�ev�?d� ����Q�NF4��Y���[��N�|!tc��u��"Y����Sr�����N����x�yI!(���Ia$�~F�'In=H��ů'o�8�s���������������8� ��Ye���B��)�8�K�M����Wt�-H���P�	�cV�y1�ɧ��U��
-i<]���ܣ�'�:ޙ+�0MW�
-1V�08����k�x:�<���"=���X!U
-J'�a��hh�%��1��_�-o	���dY�vs�J��*��n^wc+�:q�6d�Ll7B���+������Y�?L"�M������0 ����Da<wX��ZM�=��K��2��r{�LZK���Xc|�59 �x�n���T��|�����+��v�5����
-Eyk�+4�E�b�����͑W ��
-윌��	��M�T
-τ��Ɯ�̈́�j4~-j�B���(���4���\�*X�1���7�{����R�� �����$�mvh��ӛX�]>z?��x�
-(��&e��@���m�"0�qF�7���^�p�C6[@���,#'�K�5G�u�F�|���q��X)7�=�0�i�7Ǎ���׮s�sp{��#j04��ۄ;���ˏ~��94{�^�1��?(�}U�;𠾑M�O��PsE<����q�xv��Y�4f���Upىaa,�d�q�Ǎ7C�X� ���t~�=���>��g"�����<�Ou��ka���=���
-�����A���],�{��y�?|�G͵�z�G��sZ"�|�!�!��y�o�0Po���F3��9�h��V_(��-U���8v0���[7� �
-7:��y��*���&�m��M��X6��򴸼�H5��b�pk��P���>Խ����̞m�6��ї�h�q�A���܃�������b�4�HH�=��׷w��׫��G))�22i-o��=+�����Y↛
-z���R�:{{�NaL!�B����As���Z��?l�<���?��殷�ڸw�>t'JR�]�t��S�m�s�ڷ��_�GNhp��V+� OȠ%V���~$`�@9[��T��]
-��T��W�.��n��H����Qm4�?}S�>usR��=�.�y m�{�LHki�Yڋ�T����$z�Ҁ)�MsH��S'
-�k�~�h�+7��(�1�-ܱ������Z���KT��{x�J|	z����>����-S�̿R�>�Q�]�W~p�7�w%�>[��d�h�Δ��c2�dpjC�(3嘻@��Թ�
-vb;k��d��Ǩ@��Ţ��z��W�x��A��؞h�2&�H�D�q�΃��AhM�.`�+�G���^bw��hC���	��ٻ�݅�҉�Ro�x4��6��s�+��xi����
-�a��6�=$�7���M1=ؓ�YK�)ӓY��VQ�Z��r0�[&iN�{��Й��/����ؗ`E7�j<�	=��~��� |��,��.f�1���*o�MP�V^u7:�箏X��D���\;�Dh�{������r7��s�jJ~�F*�N�-#
- �,o�h�eK�)�>Ac�n��hnU+�)%������D�]�Y;��W�&���@���#�hG�Ɖ�)�D�x`���g��ȹ�%4l��v�PSذY՞�f�"���rF!qJ�3ݙ���� tn�D���΅��X�P����s�Ʀ��2$jc�ܣC�[�p3���3�r�I��s�!�K��rz��xE|��L�W���/t�-.�O�.U,�9 pp{+"g��w�_tς��	Ǯ�׎eᾗ>"�/_��б�⚳�O�a�cP͗ź��0���/�����[��n�(vL��º�,\X�T�CS�@�KK���hF�`�i?�@E���6�hd��p4�*����Z��#��X�6N2�݆�������<�
-�<��L�Ph}�i'Nyb�Zzx(�4ǅ����YA�w�ߝq�<jJ�a�ogwP���E����������T�U/�*#vh2k���W�PZ�s駋�]��h,>�p8�VL���S77�'Q1�y�=���ލ���c;�A8���FAX��pXd��l�s7z�������G2Jo�XF)�0�Mo܅u=c�����5�"7#��\a�td��;�jX&�x�JϜ�z�<��֔o�RmI�ĳ��E�f��
-���7���5���Xs�|W�	T~�&�]��3&�,��؄�;g�팬Pd.丣�-�@h��&'����Լ��[*??QA�˖H�J�l����^HN:�7`�h�
+                                <button
+                                  type="button"
+                                  onClick={() => toggleSort("hybrid")}
+                                  className="flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer text-left focus:outline-none"
+                                >
+                                  Hybrid / Desc
+                                  <span className="material-symbols-outlined text-[14px]">
+                                    {tempSortBy === "hybrid"
+                                      ? tempSortOrder === "asc"
+                                        ? "arrow_upward"
+                                        : "arrow_downward"
+                                      : "unfold_more"}
+                                  </span>
+                                </button>
+                              </th>
+                              <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider min-w-[110px]">
+                                <button
+                                  type="button"
+                                  onClick={() => toggleSort("lot")}
+                                  className="flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer text-left focus:outline-none"
+                                >
+                                  Lot No
+                                  <span className="material-symbols-outlined text-[14px]">
+                                    {tempSortBy === "lot"
+                                      ? tempSortOrder === "asc"
+                                        ? "arrow_upward"
+                                        : "arrow_downward"
+                                      : "unfold_more"}
+                                  </span>
+                                </button>
+                              </th>
+                              {INDO_MONTHS.map((m, idx) => (
+                                <th
+                                  key={idx}
+                                  className="py-4 px-3 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider text-center min-w-[65px]"
+                                >
+                                  {m}
+                                </th>
+                              ))}
+                              <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider text-right min-w-[100px]">
+                                Total Qty
+                              </th>
+                            </>
+                          ) : (
+                            <>
+                              <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                <button
+                                  type="button"
+                                  onClick={() => toggleSort("checker")}
+                                  className="flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer text-left focus:outline-none"
+                                >
+                                  Checker
+                                  <span className="material-symbols-outlined text-[14px]">
+                                    {tempSortBy === "checker"
+                                      ? tempSortOrder === "asc"
+                                        ? "arrow_upward"
+                                        : "arrow_downward"
+                                      : "unfold_more"}
+                                  </span>
+                                </button>
+                              </th>
+                              <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                <button
+                                  type="button"
+                                  onClick={() => toggleSort("channel")}
+                                  className="flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer text-left focus:outline-none"
+                                >
+                                  Channel Partner
+                                  <span className="material-symbols-outlined text-[14px]">
+                                    {tempSortBy === "channel"
+                                      ? tempSortOrder === "asc"
+                                        ? "arrow_upward"
+                                        : "arrow_downward"
+                                      : "unfold_more"}
+                                  </span>
+                                </button>
+                              </th>
+                              <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                <button
+                                  type="button"
+                                  onClick={() => toggleSort("hybrid")}
+                                  className="flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer text-left focus:outline-none"
+                                >
+                                  Hybrid / Desc
+                                  <span className="material-symbols-outlined text-[14px]">
+                                    {tempSortBy === "hybrid"
+                                      ? tempSortOrder === "asc"
+                                        ? "arrow_upward"
+                                        : "arrow_downward"
+                                      : "unfold_more"}
+                                  </span>
+                                </button>
+                              </th>
+                              <th className="py-4 px-6 text-[10px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                <button
+                                  type="button"
+                                  onClick={() => toggleSort("lot")}
+                                  className="flex items-center gap-1.5 hover:text-primary transition-colors cursor-pointer text-left focus:outline-none"
+                                >
+                                  Lot No
+                                  <span className="material-symbols-outlined text-[14px]">
+                                    {tempSortBy === "lot"
+                                      ? tempSortOrder === "asc"
+                                        ? "arrow_upward"
+                                        : "arrow_downward"
+                                      : "unfold_more"}
+                                  </span>
+                                </button>
+                              </th>
+                            </>
+                          )}
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-[#f2f1ff] text-xs font-semibold text-[#181a2c]">
+                        {sortedList.length > 0 ? (
+                          sortedList.map((item) => {
+                            const isExpanded = expandedTempRowId === item.id;
+                            return isTempProceeded ? (
+                              <tr
+                                key={item.id}
+                                className="hover:bg-[#fbfbfb] transition-colors"
+                              >
+                                <td className="py-4 px-6 select-text">
+                                  <div className="flex items-center gap-2.5">
+                                    <div className="size-7 rounded-lg bg-indigo-50 text-indigo-600 font-bold text-[10px] flex items-center justify-center uppercase shrink-0 shadow-sm animate-in fade-in zoom-in-95 duration-150">
+                                      {String(item.checker).substring(0, 2)}
+                                    </div>
+                                    <span className="truncate max-w-[150px] font-bold text-[#181a2c]">
+                                      {item.checker}
+                                    </span>
+                                  </div>
+                                </td>
+                                <td className="py-4 px-6 text-[#5e617d] truncate max-w-[180px] select-text">
+                                  {item.channel}
+                                </td>
+                                <td className="py-4 px-6 select-text">
+                                  <span className="bg-primary/5 text-primary text-[10.5px] px-3 py-1 rounded-lg font-bold inline-block leading-none border border-primary/10">
+                                    {item.hybrid}
+                                  </span>
+                                </td>
+                                <td className="py-4 px-6 select-text">
+                                  <span className="font-mono text-[11px] font-extrabold px-2.5 py-1 bg-slate-50 border border-slate-100 rounded text-slate-700 tracking-wide font-bold">
+                                    {item.lot}
+                                  </span>
+                                </td>
+                                {item.monthlyQty.map((qty, mIdx) => (
+                                  <td
+                                    key={mIdx}
+                                    className="py-4 px-3 text-center"
+                                  >
+                                    {qty > 0 ? (
+                                      <span className="bg-primary/5 text-primary text-[10px] px-2 py-0.5 rounded font-extrabold inline-block scale-100 hover:scale-105 duration-100 border border-primary/5">
+                                        {qty.toLocaleString()}
+                                      </span>
+                                    ) : (
+                                      <span className="text-[#c1c4db] font-normal">
+                                        -
+                                      </span>
+                                    )}
+                                  </td>
+                                ))}
+                                <td className="py-4 px-6 text-right font-extrabold text-primary select-all">
+                                  {item.totalQty.toLocaleString()} Kg
+                                </td>
+                              </tr>
+                            ) : (
+                              <React.Fragment key={item.id}>
+                                <tr
+                                  onClick={() => setExpandedTempRowId(isExpanded ? null : item.id)}
+                                  className={`hover:bg-[#fbfbfb] border-l-4 transition-all cursor-pointer select-none ${
+                                    isExpanded ? "bg-primary/[0.02] border-primary" : "border-transparent"
+                                  }`}
+                                >
+                                  <td className="py-4 px-6 select-text">
+                                    <div className="flex items-center gap-2.5">
+                                      <span
+                                        className="material-symbols-outlined text-[20px] text-[#8E94B7] transition-transform duration-300 shrink-0 select-none"
+                                        style={{
+                                          transform: isExpanded ? "rotate(90deg)" : "none",
+                                        }}
+                                      >
+                                        chevron_right
+                                      </span>
+                                      <div className="size-7 rounded-lg bg-indigo-50 text-indigo-600 font-bold text-[10px] flex items-center justify-center uppercase shrink-0 shadow-sm relative">
+                                        {String(item.checker).substring(0, 2)}
+                                        {item.inputs.length > 1 && (
+                                          <span className="absolute -top-1.5 -right-1.5 bg-primary text-white text-[8px] h-3.5 min-w-3.5 px-0.5 rounded-full flex items-center justify-center font-bold font-sans">
+                                            {item.inputs.length}
+                                          </span>
+                                        )}
+                                      </div>
+                                      <span className="truncate max-w-[150px] font-bold text-[#181a2c]">
+                                        {item.checker}
+                                      </span>
+                                    </div>
+                                  </td>
+                                  <td className="py-4 px-6 text-[#5e617d] truncate max-w-[180px] select-text">
+                                    {item.channel}
+                                  </td>
+                                  <td className="py-4 px-6 select-text">
+                                    <span className="bg-primary/5 text-primary text-[10.5px] px-3 py-1 rounded-lg font-bold inline-block leading-none border border-primary/10">
+                                      {item.hybrid}
+                                    </span>
+                                  </td>
+                                  <td className="py-4 px-6 select-text">
+                                    <span className="font-mono text-[11px] font-extrabold px-2.5 py-1 bg-slate-50 border border-slate-100 rounded text-slate-700 tracking-wide font-bold">
+                                      {item.lot}
+                                    </span>
+                                  </td>
+                                </tr>
+                                {isExpanded && (
+                                  <tr className="bg-[#fafbfe]/40">
+                                    <td colSpan={4} className="py-3 px-6">
+                                      <div className="p-5 bg-white rounded-2xl border border-[#edecff] shadow-sm animate-in slide-in-from-top-3 duration-200">
+                                        <h4 className="text-[10.5px] font-extrabold text-primary uppercase tracking-widest mb-3.5 flex items-center gap-1.5">
+                                          <span className="material-symbols-outlined text-[16px]">
+                                            calendar_today
+                                          </span>
+                                          Detail Tanggal Input & Qty
+                                        </h4>
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                                          <div className="flex items-center gap-3 bg-slate-50 border border-[#edecff] rounded-xl p-3">
+                                            <div className="size-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                                              <span className="material-symbols-outlined text-[18px]">
+                                                local_shipping
+                                              </span>
+                                            </div>
+                                            <div className="min-w-0">
+                                              <p className="text-[9px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                                Shipping Date
+                                              </p>
+                                              <p className="text-xs font-black text-[#181a2c] mt-0.5">
+                                                {item.shippingDate || "N/A"}
+                                              </p>
+                                            </div>
+                                          </div>
+                                          <div className="flex items-center gap-3 bg-slate-50 border border-[#edecff] rounded-xl p-3">
+                                            <div className="size-8 rounded-lg bg-rose-50 text-rose-600 flex items-center justify-center shrink-0">
+                                              <span className="material-symbols-outlined text-[18px]">
+                                                event_busy
+                                              </span>
+                                            </div>
+                                            <div className="min-w-0">
+                                              <p className="text-[9px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                                Exp Date
+                                              </p>
+                                              <p className="text-xs font-black text-rose-700 mt-0.5">
+                                                {!item.expDate || item.expDate === "N/A" || item.expDate === "-"
+                                                  ? extractExpFromLot(item.lot)
+                                                  : item.expDate}
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="overflow-hidden rounded-xl border border-[#edecff] bg-white">
+                                          <table className="w-full text-left border-collapse">
+                                            <thead>
+                                              <tr className="bg-slate-50 border-b border-[#edecff] text-[9.5px] font-extrabold text-[#8E94B7] uppercase tracking-wider">
+                                                <th className="py-2.5 px-4 w-12 text-center">No</th>
+                                                <th className="py-2.5 px-4">Tanggal Input</th>
+                                                <th className="py-2.5 px-4 text-right">Stok / Qty (Kg)</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody className="divide-y divide-[#f2f1ff] text-xs font-semibold text-[#181a2c]">
+                                              {item.inputs.map((inp, inpIdx) => (
+                                                <tr key={inp.id || inpIdx} className="hover:bg-slate-50/50 transition-colors">
+                                                  <td className="py-3 px-4 text-[#8E94B7] text-center font-mono text-[11px]">{inpIdx + 1}</td>
+                                                  <td className="py-3 px-4 font-mono text-[#5e617d] select-all">{inp.tanggalInput}</td>
+                                                  <td className="py-3 px-4 font-extrabold text-right text-primary select-all">
+                                                    {inp.qty.toLocaleString()} Kg
+                                                  </td>
+                                                </tr>
+                                              ))}
+                                            </tbody>
+                                            <tfoot>
+                                              <tr className="bg-slate-50/30 border-t border-[#edecff] font-bold text-[#181a2c] text-xs">
+                                                <td colSpan={2} className="py-2.5 px-4 text-[10px] uppercase font-extrabold text-[#8E94B7] text-left">
+                                                  Total Akumulasi
+                                                </td>
+                                                <td className="py-2.5 px-4 text-right font-extrabold text-primary select-all text-sm">
+                                                  {item.totalQty.toLocaleString()} Kg
+                                                </td>
+                                              </tr>
+                                            </tfoot>
+                                          </table>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                )}
+                              </React.Fragment>
+                            );
+                          })
+                        ) : (
+                          <tr>
+                            <td
+                              colSpan={isTempProceeded ? 17 : 4}
+                              className="py-16 text-center text-[#8E94B7] font-medium"
+                            >
+                              Tidak ada data yang cocok dengan kriteria pencarian.
+                            </td>
+                          </tr>
+                        )}
+                      </tbody>
+                      {isTempProceeded && sortedList.length > 0 && (() => {
+                        const colTotals = Array(12).fill(0);
+                        sortedList.forEach((item) => {
+                          item.monthlyQty.forEach((qty, idx) => {
+                            colTotals[idx] += qty;
+                          });
+                        });
+                        const grandTotal = sortedList.reduce((acc, item) => acc + item.totalQty, 0);
+                        return (
+                          <tfoot>
+                            <tr className="bg-[#fafbfe]/80 border-t border-[#edecff] font-bold text-[#181a2c] text-xs">
+                              <td colSpan={4} className="py-3 px-6 text-[10px] uppercase font-extrabold text-[#8E94B7] text-left">
+                                Total Kolom
+                              </td>
+                              {colTotals.map((tot, idx) => (
+                                <td key={idx} className="py-3 px-3 text-center font-extrabold text-[#154be2] text-[11px]">
+                                  {tot > 0 ? tot.toLocaleString() : "-"}
+                                </td>
+                              ))}
+                              <td className="py-3 px-6 text-right font-extrabold text-primary select-all text-xs">
+                                {grandTotal.toLocaleString()} Kg
+                              </td>
+                            </tr>
+                          </tfoot>
+                        );
+                      })()}
+                    </table>
+                  </div>
+                  {sortedList.length > 0 && (
+                    <div className="py-3.5 px-6 border-t border-[#edecff] bg-slate-50/30 text-[10px] text-[#8E94B7] font-bold text-right uppercase tracking-wider">
+                      Total Data: {sortedList.length} Baris
+                    </div>
+                  )}
+                </div>
+              </>
+            )})()}
+          </div>
+        )}
 
-�
-'�F��G�Ҷ�)��t(B4��n�]�tm*em��Q4�Sg���سƝ�*�զ�T��-3URn�a�f�G�;�� ��5�`
-�E�����ޛ�F
-��=�;T���rՔ�i�9PeO����4��t��3��b)_I�-I6i��OJ�ܽl��2}�ȝL��HJ�<������t}�Maq���b
-Io4R?2t>S��dX�4(�\�zT�]�/��O������.~'O�2���$�Ɋ�GSI���}0����
-��)��b��d(�(����2�0X).�3�2�Q�g�8Yͩm���2|5�jfE��?X#Y�|J��V�W?��6�M��
-~s3g��0��I0�0
-@sua����`��!L�P�E9sL��4�̴��n�D+m����C^�� ;B�aD(;���c�dv�7�>��]���G.�m�:-yD�����I���Z���۔x5��}Ӵ��� Iy��
-�>��$aLaE��I��-�-%��(� r�ȢAW�XE(�+.R�u���V�'��l�ȵdɕ$MuR��5��p�(= �Le�ȅ)�L���U�sh��IJx��+�@Q��wT׏e2�zz1��*`P���D�d'���Y*l�ۏM��� M&�h�q\C_ JS��5(<MUd�������j�G�9>�D�"�:�{�sIN����\U�;�f8sŔ��j	�r������3WH�P�� g�"ѢZI��F7�*#9�R`�U��-��T	hKr��	��"b�(�Z��Td#v0^�>mwv���m��?�����,t&�=��":����̨;
-�)��7ꎃ��8�O'4Z�X��x�N4����h<���,n�|��u���'��k0l{�6�k(݆�Gy/��F3ǉ����c�Ѯ�X8��l�zv+J�p%C%�%��c���,Oʯ`E���|�M:�?�!�/��$:��������.�}���E#鎧,�}L\��r����ǁ����ճ`�|b��cҦ��<"����=
-���ч�@���e$�b*�鏶f�'f3$��&�n7)�Z
-�PF�h�GV��d"`�L�y���q&.K
-	�,ji��(1Z�t|w��O�F26�A���;�L�y~��[���q\�UK��5���t\�J��4�i۵���>
-Y*:$�: ���
-ܳak�VtO�^D���FzPY]�t��4���2i7���~��}�0�Q�3��L�䲈���;�.��kKJ��u�j�_ZUݿ�];���5WG&�U�*ӗ��!/n~ԟ1��U S��{�A�z:�	"��o��4F���03;3����Y�*oᰡgȨ�!SQ2�������iJICؗW�hF�I�\��L���'�T[�R�Q��F�7�+�Ě��BY�F�TA�TV��DN��&�b)rX��ɒ:	4F���	cH��UHB�VӤ2��5B�5�N����-<�fl/<2�q#<k�Iy������ɹ8؜(9�?̿bl7��U�g�Ej<�:r�H�r�7�#��a:����
-����O��?�ُ.�T�b������Q�S����NO�	�u��<��&�H2'h�.�9Me�x�ƙ��C����
-CO��v��
-��<���B�I�2 �Q�z_E�v�{�>�K��VnQ�dirj���l@���Ƽ�S9K'˩7�Y��s�� � �H�D�Bs��~��$���%�[ω���h����s'�����Ν�
-e/%o�7�𱤃�r&dB����
-�ozx���[��vx�a���;�n�`���!�,��#�8�Uv,�:�0���#��#j�$�l쎯0G�����}A	f���>��jk(e�rPj���6�n����4�+-ހ���2��~�ұ �=0\ꓬMOO��\pzh��Dq���7��J�$��!'�m��ݵ�/��dLf� 9Y�����S�ӴPi�u �Ɗ�)�������͒!���z�}!�R��
-x|��Ke4�Jwo`��R3��B}=����&)ͅ�P`f�8s�f$���nvet�c*�^�ތ�hL>C1�`Ɛ
-&KQ{j>-�tJ?H:�^^�G���:w���`�<-O��2��'7s�$�������{��N6�Un�h�K�3C��ܦ��8�#��a�'�ŗ~;U3r��%����~]��}4� �6hJ"��B輼�������e["��u��$ݼ3���@�.��}@������u�Kj��dƃ��cV�����h�~���NU��<ל��-�ІF�fkL����64X@-�9$�Y��8���Q[����j�k��H���&�����Kҙ4�����D�F�l���{K�b�H��5
-L,k ��`A�L)��:�MBN"['=9�m+��Y�[�#| <
-�^�\����_Ɨ�|���G�����m_�%���y�xo�G�@q��u���š��=���}�����I>�=��h�jcQ������荂wk����1�ȝ�c|��ԡg��H�k�?����[!9#o�����(��Fv�X���B��K@���^n�0"!���S	P.R�E|GW'�]52��n��a=F��^��\[�>�F@�t �P�i5���^����v�'�c�;�,_e����xK+$g��;�L���,�����g���r��
-,��p ���Cx�����mZ�y!�ۇ��#jhS���xP�/`�`�U�ˁ��܊f���.D�X���bo�S���@@؝ݸ�x&�%�ԢR���ZzȔ:IG&?��OB�qɃ�5����MŐ��xmz��Ô��vf�A����:^�o2����hO���^x&0��������u��8cQ��_�,�h~��#&Sz�E=�
-�w�=`��|Q���}��0X� ��С���:;���#�uk]�Sꋯ�<��{L| ���<Ƹ�!��l�n�FW�%�	V|"/GN|�A�L>�Ff"&���(P�������w\�q�A:Gt<T�ҏ�����Fw���FlU���X�fr�[�	���g.�?��$k�c��z�n�}�yQ�Ŋ��)��p?��Pi�y�Gw9����=��R�k�TI汆��BkUv�����m�X����� &�� Ei5�E7Hb7�`)�0v�_�W�X�nM��Xj_=�rVT����0�����U�)��aQ�"�\WƢ@a+.f�G+D6�����`��+g�a<.����bٙNh���c���@��� �F��\f(�Le�-mu�e~i(�[\��bt+�#��.-�I�7�Mwӡ>�;��C��+��P���N���x"P9�`7R��0��lL%���Hd��߅F2I$?j�˓G��A!E!�GA�������w���c�"}9��<�P4�,$׍���0���5eg�߅*�{E�(r����
-<�D���^SD�.�+���
-$��ǫ�>�/O����&
-��SE�C�^Ӆ����P��®JU��_�J6"��e�������Zzض�W:92N7G���q�Ҫ��n:䟍�k]d�K��~��;mw<.:��ݭ��.D�ARZT8����w(`�5X�:̃5;ʗ���jߪ�(MT�0��}B/�Mf��K�p泥"Ŏ�B�
-ŗ�*�T9
-�� ��!L�	�c͡r��>>��1��PD�fk��o��K�N+���0,�p��k�p=��Ő����,L*�yZ��,�n	�%)��d�ay�h̆�gC1���]b���  �� ߗ��
+        <LogoutConfirmModal
+          isOpen={isLogoutModalOpen}
+          onClose={() => setIsLogoutModalOpen(false)}
+          onConfirm={onLogout}
+        />
+      </div>
+    );
+  };
+
+  interface LoginProps {
+    onLogin: (u: string, p: string) => Promise<{ success: boolean; error?: string }>;
+  }
+
+  const Login = ({ onLogin }: LoginProps) => {
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+    const [errorMsg, setErrorMsg] = useState("");
+    const [isLoggingIn, setIsLoggingIn] = useState(false);
+
+    const handleLoginSubmit = async () => {
+      setErrorMsg("");
+      setIsLoggingIn(true);
+      try {
+        const res = await onLogin(username, password);
+        if (!res.success) {
+          setErrorMsg(res.error || "Username atau password salah.");
+        }
+      } catch {
+        setErrorMsg("Terjadi kesalahan jaringan.");
+      } finally {
+        setIsLoggingIn(false);
+      }
+    };
+
+    return (
+      <div className="min-h-screen supports-[min-height:100dvh]:min-h-[100dvh] font-sans flex items-center justify-center p-6 bg-gradient-to-br from-[#F2E7FE] via-[#fbf8ff] to-[#edecff]">
+        <div className="glass-panel w-full max-w-sm rounded-[24px] p-8 shadow-[0_20px_40px_rgba(24,26,44,0.06)] border border-white/60 animate-in fade-in zoom-in-95 duration-500">
+          <div className="size-24 bg-gradient-to-br from-primary to-cyan-400 rounded-[28px] mx-auto mb-5 shadow-[0_12px_32px_rgba(21,75,226,0.3)] flex items-center justify-center text-white p-3">
+            <AdvantaLogo className="w-[64px] h-[64px] text-white" />
+          </div>
+          <h1 className="text-xl font-bold text-center text-[#181a2c] tracking-tight mb-1 uppercase">
+            RADAR ADVANTA
+          </h1>
+          <p className="text-[10px] text-center text-[#8E94B7] font-semibold uppercase tracking-widest mb-6 leading-relaxed">
+            REKAN ADVANTA DAN ANALISA REPORT
+          </p>
+          <div className="space-y-4">
+            {errorMsg && (
+              <div className="bg-red-50 text-red-500 font-semibold text-xs px-4 py-2.5 rounded-full border border-red-100 flex items-center gap-2 animate-in fade-in duration-300">
+                <span className="material-symbols-outlined text-sm shrink-0">error</span>
+                <span className="truncate">{errorMsg}</span>
+              </div>
+            )}
+            <div className="space-y-4">
+              <div>
+                <label className="text-[11px] font-bold text-[#8E94B7] uppercase tracking-wider ml-4 mb-2 block">
+                  username
+                </label>
+                <input
+                  type="text"
+                  value={username}
+                  onChange={(v) => setUsername(v.target.value)}
+                  disabled={isLoggingIn}
+                  className="w-full h-14 bg-white/80 border-0 rounded-full px-6 font-semibold text-sm text-[#181a2c] outline-none focus:bg-white transition-all shadow-[0_4px_18px_rgba(21,75,226,0.08)] focus:shadow-[0_8px_28px_rgba(21,75,226,0.18)] mb-4 disabled:opacity-50"
+                  placeholder="Enter username..."
+                />
+                <label className="text-[11px] font-bold text-[#8E94B7] uppercase tracking-wider ml-4 mb-2 block">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(v) => setPassword(v.target.value)}
+                  disabled={isLoggingIn}
+                  className="w-full h-14 bg-white/80 border-0 rounded-full px-6 font-semibold text-sm text-[#181a2c] outline-none focus:bg-white transition-all shadow-[0_4px_18px_rgba(21,75,226,0.08)] focus:shadow-[0_8px_28px_rgba(21,75,226,0.18)] disabled:opacity-50"
+                  placeholder="Enter password..."
+                />
+              </div>
+              <button
+                onClick={handleLoginSubmit}
+                disabled={username.trim() === "" || password.trim() === "" || isLoggingIn}
+                className={`w-full h-14 rounded-full font-semibold text-xs uppercase tracking-wider transition-all active:scale-[0.98] cursor-pointer flex items-center justify-center gap-2 ${
+                  username.trim() === "" || password.trim() === "" || isLoggingIn
+                    ? "bg-[#e0e0fa] text-[#8E94B7] cursor-not-allowed shadow-none"
+                    : "bg-gradient-to-r from-primary to-cyan-400 text-white hover:opacity-95 shadow-[0_12px_28px_rgba(21,75,226,0.35)]"
+                }`}
+              >
+                {isLoggingIn ? (
+                  <>
+                    <svg
+                      className="animate-spin h-5 w-5 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      />
+                    </svg>
+                    <span>Logging In...</span>
+                  </>
+                ) : (
+                  <span>Enter Now</span>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const CustomXAxisTick = (props: any) => {
+    const { x, y, payload } = props;
+    const value = payload.value || "";
+    const lines = typeof value === "string" ? value.split(" ") : [String(value)];
+    return (
+      <g transform={`translate(${x},${y})`}>
+        <text
+          x={0}
+          y={0}
+          textAnchor="middle"
+          fill="#4e5572"
+          style={{
+            fontSize: "8.5px",
+            fontWeight: 700,
+            fontFamily: "sans-serif",
+          }}
+        >
+          {lines.map((word: string, idx: number) => {
+            if (idx > 2) return null;
+            const displayWord = idx === 2 && lines.length > 3 ? word + "..." : word;
+            return (
+              <tspan key={idx} x={0} dy={idx === 0 ? 8 : 10}>
+                {displayWord}
+              </tspan>
+            );
+          })}
+        </text>
+      </g>
+    );
+  };
+
+  const getResolvedPic = (
+    kiosk: any,
+    pic: any,
+    user: any,
+    lot: any,
+    pic_from_item: any
+  ): string => {
+    if (user && String(user).trim() !== "" && String(user).trim().toLowerCase() !== "unknown") {
+      return String(user);
+    }
+    if (pic_from_item && String(pic_from_item).trim() !== "" && String(pic_from_item).trim().toLowerCase() !== "unknown") {
+      return String(pic_from_item);
+    }
+    return String(pic || "Unknown");
+  };
+
+  export default function App() {
+    const [userData, setUserData] = useState<any>(() => {
+      try {
+        const session = localStorage.getItem("radar_user_session");
+        if (session) return JSON.parse(session);
+      } catch (e) {
+        console.error("Failed to load user session", e);
+      }
+      return null;
+    });
+
+    const handleLoginState = (session: any) => {
+      try {
+        if (session) {
+          localStorage.setItem("radar_user_session", JSON.stringify(session));
+          localStorage.removeItem("radar_logged_out");
+          const cleanPos = cleanForMatch(session.position || "");
+          const cleanName = cleanForMatch(session.name || "");
+          const isAdminUser = session.level && String(session.level).toLowerCase().trim() === "admin";
+          
+          setActiveTab(
+            cleanPos === "businessanalyst" ||
+            cleanName === "adityawiratama" ||
+            cleanName === "aditya" ||
+            isAdminUser
+              ? "overview"
+              : "home"
+          );
+          setFilterBelowCrop("All");
+        } else {
+          localStorage.removeItem("radar_user_session");
+          localStorage.setItem("radar_logged_out", "true");
+          setActiveTab("home");
+          setFilterBelowCrop("All");
+        }
+      } catch (e) {
+        console.error("Failed to save user session", e);
+      }
+      setUserData(session);
+    };
+
+    const handleLogout = () => {
+      handleLoginState(null);
+      try {
+        localStorage.removeItem("appAccessRules");
+      } catch (e) {
+        console.error("Failed to clear appAccessRules on logout", e);
+      }
+      setAccessRules({
+        "Business Analyst": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Vegetables Sales Manager": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Commercial Lead": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Country Head": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Area Sales Manager": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Sales Agronomist": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Business Solution": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+      });
+    };
+
+    const [activeTab, setActiveTab] = useState<string>(() => {
+      try {
+        const session = localStorage.getItem("radar_user_session");
+        if (session) {
+          const parsed = JSON.parse(session);
+          const nameClean = cleanForMatch(parsed.name || "");
+          const isBA = nameClean === "adityawiratama" || nameClean === "aditya";
+          const posClean = cleanForMatch(parsed.position || "");
+          const isAdminUser = parsed.level && String(parsed.level).toLowerCase().trim() === "admin";
+          
+          if (posClean === "businessanalyst" || isBA || isAdminUser) {
+            const rules = localStorage.getItem("appAccessRules");
+            if (rules) {
+              const parsedRules = JSON.parse(rules);
+              const matchingKey = Object.keys(parsedRules).find(
+                (key) =>
+                  cleanForMatch(key) === "businessanalyst" ||
+                  cleanForMatch(key) === "aditya" ||
+                  cleanForMatch(key) === "adityawiratama" ||
+                  cleanForMatch(key) === "admin"
+              );
+              if (matchingKey && parsedRules[matchingKey]?.overview === false) {
+                return "home";
+              }
+            }
+            return "overview";
+          }
+        }
+      } catch (e) {
+        console.warn("Failed to determine initial tab:", e);
+      }
+      return "home";
+    });
+
+    const [isMenuVisible, setIsMenuVisible] = useState(true);
+    const [isCheckingSession, setIsCheckingSession] = useState(true);
+
+    const [overviewMetricFilter, setOverviewMetricFilter] = useState("movement");
+    const [filterBelowMonth, setFilterBelowMonth] = useState("All");
+    const [filterBelowChannel, setFilterBelowChannel] = useState("All");
+    const [filterBelowMaterial, setFilterBelowMaterial] = useState("All");
+    const [filterBelowTeam, setFilterBelowTeam] = useState("All");
+    const [filterBelowArea, setFilterBelowArea] = useState("All");
+    const [filterBelowCrop, setFilterBelowCrop] = useState("All");
+
+    const [isSidebarExpanded, setIsSidebarExpanded] = useState(true);
+    const isSelfAditya = userData && (cleanForMatch(userData.name) === "adityawiratama" || cleanForMatch(userData.name) === "aditya");
+
+    const normalizedPosition = useMemo(() => {
+      if (!userData) return "";
+      return getResolvedRole(userData.position);
+    }, [userData]);
+
+    const [accessRules, setAccessRules] = useState<Record<string, any>>(() => {
+      try {
+        const rules = localStorage.getItem("appAccessRules");
+        if (rules) return JSON.parse(rules);
+      } catch (e) {
+        console.error("Failed to load access rules from localStorage", e);
+      }
+      return {
+        "Business Analyst": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Vegetables Sales Manager": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Commercial Lead": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Country Head": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Area Sales Manager": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+        "Sales Agronomist": { home: true, partner: true, stock: true, pog: true, overview: true, text_temp: true, access: true },
+        "Business Solution": { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true },
+      };
+    });
+
+    const tabPermissions = useMemo(() => {
+      if (!userData) {
+        return { home: false, partner: false, stock: false, pog: false, overview: false, temp: false, access: false };
+      }
+      const pos = userData.position || "";
+      const cleanPos = cleanForMatch(pos);
+      const cleanNormalized = cleanForMatch(normalizedPosition);
+      
+      let matchingKey = Object.keys(accessRules || {}).find((key) => cleanForMatch(key) === cleanPos);
+      if (!matchingKey) {
+        matchingKey = Object.keys(accessRules || {}).find((key) => cleanForMatch(key) === cleanNormalized);
+      }
+      
+      if (matchingKey && accessRules[matchingKey]) {
+        const rules = accessRules[matchingKey];
+        return {
+          home: rules.home ?? true,
+          partner: rules.partner ?? true,
+          stock: rules.stock ?? true,
+          pog: rules.pog ?? true,
+          overview: rules.overview ?? true,
+          temp: rules.temp ?? true,
+          access: rules.access ?? true,
+        };
+      }
+      return { home: true, partner: true, stock: true, pog: true, overview: true, temp: true, access: true };
+    }, [userData, normalizedPosition, accessRules]);
+
+    const hasHomeTab = userData ? !!tabPermissions.home : false;
+    const hasPartnerTab = userData ? !!tabPermissions.partner : false;
+    const hasStockTab = userData ? !!tabPermissions.stock : false;
+    const hasPogTab = userData ? !!tabPermissions.pog : false;
+    const hasOverviewTab = userData ? !!tabPermissions.overview : false;
+    const hasTempTab = userData ? !!tabPermissions.temp : false;
+    const hasAccessTab = userData ? (!!tabPermissions.access || isSelfAditya) : false;
+
+    // Enforce access bounds
+    if (
+      userData &&
+      ((activeTab === "home" && !hasHomeTab) ||
+        (activeTab === "partner" && !hasPartnerTab) ||
+        (activeTab === "summary" && !hasStockTab) ||
+        (activeTab === "pog" && !hasPogTab) ||
+        (activeTab === "temp" && !hasTempTab) ||
+        (activeTab === "overview" && !hasOverviewTab) ||
+        (activeTab === "access" && !hasAccessTab))
+    ) {
+      let fallback = "";
+      if (hasHomeTab) fallback = "home";
+      else if (hasOverviewTab) fallback = "overview";
+      else if (hasPartnerTab) fallback = "partner";
+      else if (hasStockTab) fallback = "summary";
+      else if (hasPogTab) fallback = "pog";
+      else if (hasTempTab) fallback = "temp";
+      else if (hasAccessTab) fallback = "access";
+      
+      if (fallback && fallback !== activeTab) {
+        setActiveTab(fallback);
+      }
+    }
+
+    useEffect(() => {
+      if (
+        userData &&
+        ((!hasHomeTab && activeTab === "home") ||
+          (!hasPartnerTab && activeTab === "partner") ||
+          (!hasStockTab && activeTab === "summary") ||
+          (!hasPogTab && activeTab === "pog") ||
+          (!hasTempTab && activeTab === "temp") ||
+          (!hasOverviewTab && activeTab === "overview") ||
+          (!hasAccessTab && activeTab === "access"))
+      ) {
+        if (hasHomeTab) setActiveTab("home");
+        else if (hasOverviewTab) setActiveTab("overview");
+        else if (hasPartnerTab) setActiveTab("partner");
+        else if (hasStockTab) setActiveTab("summary");
+        else if (hasPogTab) setActiveTab("pog");
+        else if (hasTempTab) setActiveTab("temp");
+        else if (hasAccessTab) setActiveTab("access");
+      }
+    }, [userData, activeTab, hasHomeTab, hasPartnerTab, hasStockTab, hasPogTab, hasTempTab, hasOverviewTab, hasAccessTab]);
+
+    useEffect(() => {
+      const link = document.createElement("link");
+      link.href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0";
+      link.rel = "stylesheet";
+      document.head.appendChild(link);
+    }, []);
+
+    const handleUserLogin = async (userVal: string, passVal: string) => {
+      try {
+        const res = await customFetch(
+          `${SCRIPT_URL}?action=getUserProfile&user=${encodeURIComponent(userVal)}`
+        );
+        const data = await res.json();
+        if (data.status === "success" && data.data) {
+          const profile = { ...data.data };
+          const dbPassword = String(profile.password || "").trim();
+          if (String(passVal || "").trim() !== dbPassword) {
+            return { success: false, error: "Password salah." };
+          }
+          
+          const isBA =
+            cleanForMatch(userVal) === "adityawiratama" ||
+            cleanForMatch(userVal) === "aditya" ||
+            cleanForMatch(profile.name || "") === "adityawiratama" ||
+            cleanForMatch(profile.name || "") === "aditya" ||
+            cleanForMatch(profile.user || "") === "aditya" ||
+            cleanForMatch(profile.user || "") === "adityawiratama";
+            
+          if (isBA) {
+            profile.position = "Business Analyst";
+          } else {
+            profile.position = getResolvedRole(profile.position);
+          }
+
+          try {
+            const rulesRes = await customFetch(`${SCRIPT_URL}?action=getAccessRules`);
+            const rulesData = await rulesRes.json();
+            if (rulesData.status === "success" && rulesData.data && Object.keys(rulesData.data).length > 0) {
+              setAccessRules(rulesData.data);
+              try {
+                localStorage.setItem("appAccessRules", JSON.stringify(rulesData.data));
+              } catch (e) {
+                console.error("Failed to save appAccessRules on login", e);
+              }
+            }
+          } catch (e) {
+            console.warn("Failed to pre-fetch access rules during login:", e);
+          }
+
+          handleLoginState(profile);
+          return { success: true };
+        } else {
+          return { success: false, error: data.message || "Username tidak ditemukan." };
+        }
+      } catch (e) {
+        console.warn("Login call error:", e);
+        return { success: false, error: "Terjadi kesalahan jaringan." };
+      }
+    };
+
+    useEffect(() => {
+      (async () => {
+        try {
+          const session = localStorage.getItem("radar_user_session");
+          if (session) {
+            const profile = JSON.parse(session);
+            setUserData(profile);
+          }
+        } catch (e) {
+          console.warn("Auto login error:", e);
+        } finally {
+          setIsCheckingSession(false);
+        }
+      })();
+    }, []);
+
+    if (isCheckingSession && !userData) {
+      return (
+        <div className="flex flex-col items-center justify-center min-h-screen supports-[min-height:100dvh]:min-h-[100dvh] gap-6 bg-gradient-to-br from-[#F2E7FE] via-[#fbf8ff] to-[#edecff] text-[#181a2c]">
+          <div className="relative">
+            <div className="size-20 border-4 border-[#edecff] rounded-full" />
+            <div className="size-20 border-4 border-primary border-t-transparent rounded-full animate-spin absolute inset-0" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="material-symbols-outlined text-[32px] text-primary animate-pulse">sync</span>
+            </div>
+          </div>
+          <div className="text-center animate-pulse">
+            <h3 className="text-[#181a2c] font-bold text-sm mb-1">Membuka Workspace...</h3>
+            <p className="text-[#8E94B7] text-[9px] font-semibold uppercase tracking-widest">
+              Memeriksa Sesi Pengguna
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    return userData ? (
+      <div className="min-h-screen supports-[min-height:100dvh]:min-h-[100dvh] bg-[#fbf8ff] font-sans selection:bg-[#edecff] text-[#181a2c] flex flex-col md:flex-row w-full mx-auto relative transition-all duration-300">
+        {/* Sidebar Desktop */}
+        <div
+          className={`hidden md:flex flex-col ${
+            isSidebarExpanded ? "w-20 lg:w-64" : "w-20"
+          } bg-gradient-to-b from-[#154be2]/[0.09] via-[#154be2]/[0.04] to-white/70 backdrop-blur-xl border-r border-[#154be2]/12 h-screen sticky top-0 z-50 transition-all duration-300 left-0`}
+        >
+          <div
+            onClick={() => setIsSidebarExpanded(!isSidebarExpanded)}
+            className="flex items-center justify-center lg:justify-start gap-4 h-24 px-0 lg:px-8 border-b border-[#154be2]/10 cursor-pointer hover:bg-white/40 transition-colors"
+          >
+            <div className="size-11 shrink-0 bg-gradient-to-br from-[#154be2] to-cyan-400 rounded-xl flex items-center justify-center shadow-[0_4px_16px_rgba(21,75,226,0.25)]">
+              <AdvantaLogo className="size-6 text-white" />
+            </div>
+            <span
+              className={`font-bold text-lg hidden tracking-tight text-[#154be2] ${
+                isSidebarExpanded ? "lg:block" : ""
+              }`}
+            >
+              RADAR ADVANTA
+            </span>
+          </div>
+
+          <div className="flex flex-col gap-2.5 mt-6 px-2.5 lg:px-4 flex-1">
+            {hasHomeTab ? (
+              <button
+                onClick={() => setActiveTab("home")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all duration-200 cursor-pointer ${
+                  activeTab === "home"
+                    ? "bg-gradient-to-r from-[#154be2] to-cyan-500 text-white font-extrabold shadow-[0_6px_20px_rgba(21,75,226,0.3)] ring-1 ring-[#154be2]/20 scale-[1.02]"
+                    : "bg-gradient-to-r from-[#154be2]/10 to-cyan-400/10 hover:from-[#154be2]/15 hover:to-cyan-400/15 text-[#154be2] border border-[#154be2]/20 font-bold"
+                }`}
+              >
+                <span className="material-symbols-outlined ml-0 lg:ml-4">edit_note</span>
+                <span className={`font-extrabold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Input Activity
+                </span>
+              </button>
+            ) : hasOverviewTab ? (
+              <button
+                onClick={() => setActiveTab("overview")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all duration-200 cursor-pointer ${
+                  activeTab === "overview"
+                    ? "bg-gradient-to-r from-[#154be2] to-cyan-500 text-white font-extrabold shadow-[0_6px_20px_rgba(21,75,226,0.3)] ring-1 ring-[#154be2]/20 scale-[1.02]"
+                    : "bg-gradient-to-r from-[#154be2]/10 to-cyan-400/10 hover:from-[#154be2]/15 hover:to-cyan-400/15 text-[#154be2] border border-[#154be2]/20 font-bold"
+                }`}
+              >
+                <span className="material-symbols-outlined ml-0 lg:ml-4">analytics</span>
+                <span className={`font-extrabold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Executive Overview
+                </span>
+              </button>
+            ) : null}
+
+            <div className="h-[1px] bg-[#154be2]/10 my-1 lg:mx-2" />
+
+            {hasOverviewTab && (
+              <button
+                onClick={() => setActiveTab("overview")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all ${
+                  activeTab === "overview"
+                    ? "bg-[#154be2]/15 text-[#154be2] shadow-[0_4px_12px_rgba(21,75,226,0.12)] ring-1 ring-[#154be2]/15 font-bold"
+                    : "text-[#8E94B7] hover:bg-white/40 hover:text-[#181a2c]"
+                }`}
+              >
+                <span className={`material-symbols-outlined ml-0 lg:ml-4 ${activeTab === "overview" ? "font-normal" : ""}`}>
+                  analytics
+                </span>
+                <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Executive Overview
+                </span>
+              </button>
+            )}
+
+            {hasPartnerTab && (
+              <button
+                onClick={() => setActiveTab("partner")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all ${
+                  activeTab === "partner"
+                    ? "bg-[#154be2]/15 text-[#154be2] shadow-[0_4px_12px_rgba(21,75,226,0.12)] ring-1 ring-[#154be2]/15 font-bold"
+                    : "text-[#8E94B7] hover:bg-white/40 hover:text-[#181a2c]"
+                }`}
+              >
+                <span className={`material-symbols-outlined ml-0 lg:ml-4 ${activeTab === "partner" ? "font-normal" : ""}`}>
+                  handshake
+                </span>
+                <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Data Partner
+                </span>
+              </button>
+            )}
+
+            {hasStockTab && (
+              <button
+                onClick={() => setActiveTab("summary")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all ${
+                  activeTab === "summary"
+                    ? "bg-[#154be2]/15 text-[#154be2] shadow-[0_4px_12px_rgba(21,75,226,0.12)] ring-1 ring-[#154be2]/15 font-bold"
+                    : "text-[#8E94B7] hover:bg-white/40 hover:text-[#181a2c]"
+                }`}
+              >
+                <span className={`material-symbols-outlined ml-0 lg:ml-4 ${activeTab === "summary" ? "font-normal" : ""}`}>
+                  donut_large
+                </span>
+                <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Stock Summary
+                </span>
+              </button>
+            )}
+
+            {hasPogTab && (
+              <button
+                onClick={() => setActiveTab("pog")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all ${
+                  activeTab === "pog"
+                    ? "bg-[#154be2]/15 text-[#154be2] shadow-[0_4px_12px_rgba(21,75,226,0.12)] ring-1 ring-[#154be2]/15 font-bold"
+                    : "text-[#8E94B7] hover:bg-white/40 hover:text-[#181a2c]"
+                }`}
+              >
+                <span className={`material-symbols-outlined ml-0 lg:ml-4 ${activeTab === "pog" ? "font-normal" : ""}`}>
+                  trending_up
+                </span>
+                <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  POG Tracking
+                </span>
+              </button>
+            )}
+
+            {hasTempTab && (
+              <button
+                onClick={() => setActiveTab("temp")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all ${
+                  activeTab === "temp"
+                    ? "bg-[#154be2]/15 text-[#154be2] shadow-[0_4px_12px_rgba(21,75,226,0.12)] ring-1 ring-[#154be2]/15 font-bold"
+                    : "text-[#8E94B7] hover:bg-white/40 hover:text-[#181a2c]"
+                }`}
+              >
+                <span className={`material-symbols-outlined ml-0 lg:ml-4 ${activeTab === "temp" ? "font-normal" : ""}`}>
+                  assignment
+                </span>
+                <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Review (Temp)
+                </span>
+              </button>
+            )}
+
+            {hasAccessTab && (
+              <button
+                onClick={() => setActiveTab("access")}
+                className={`flex items-center justify-center lg:justify-start gap-3 h-13 rounded-xl transition-all ${
+                  activeTab === "access"
+                    ? "bg-[#154be2]/15 text-[#154be2] shadow-[0_4px_12px_rgba(21,75,226,0.12)] ring-1 ring-[#154be2]/15 font-bold"
+                    : "text-[#8E94B7] hover:bg-white/40 hover:text-[#181a2c]"
+                }`}
+              >
+                <span className={`material-symbols-outlined ml-0 lg:ml-4 ${activeTab === "access" ? "font-normal" : ""}`}>
+                  admin_panel_settings
+                </span>
+                <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                  Access Menu
+                </span>
+              </button>
+            )}
+          </div>
+
+          <div className="p-3 lg:p-4 pb-6 border-t border-[#154be2]/10">
+            <button
+              onClick={handleLogout}
+              className="flex items-center justify-center lg:justify-start gap-3 h-12 w-full rounded-xl transition-all text-[#8E94B7] hover:bg-red-50 hover:text-red-600"
+            >
+              <span className="material-symbols-outlined ml-0 lg:ml-4">logout</span>
+              <span className={`font-semibold text-xs hidden ${isSidebarExpanded ? "lg:block" : ""}`}>
+                Keluar System
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div className="flex-1 w-full min-w-0 max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto shadow-2xl md:shadow-none bg-[#fbf8ff] relative overflow-hidden pb-24 md:pb-8">
+          <Dashboard
+            userData={userData}
+            activeTab={activeTab}
+            onLogout={handleLogout}
+            onUserSwitch={handleUserLogin}
+            setUserData={setUserData}
+            setActiveTab={setActiveTab}
+            accessRules={accessRules}
+            setAccessRules={setAccessRules}
+            overviewMetricFilter={overviewMetricFilter}
+            setOverviewMetricFilter={setOverviewMetricFilter}
+            filterBelowMonth={filterBelowMonth}
+            setFilterBelowMonth={setFilterBelowMonth}
+            filterBelowChannel={filterBelowChannel}
+            setFilterBelowChannel={setFilterBelowChannel}
+            filterBelowMaterial={filterBelowMaterial}
+            setFilterBelowMaterial={setFilterBelowMaterial}
+            filterBelowTeam={filterBelowTeam}
+            setFilterBelowTeam={setFilterBelowTeam}
+            filterBelowArea={filterBelowArea}
+            setFilterBelowArea={setFilterBelowArea}
+            filterBelowCrop={filterBelowCrop}
+            setFilterBelowCrop={setFilterBelowCrop}
+          />
+        </div>
+
+        {/* Mobile Navigation */}
+        <div
+          className={`md:hidden fixed bottom-3 left-4 right-4 max-w-sm mx-auto flex items-end justify-between gap-3 z-50 transition-all duration-300 ${
+            isMenuVisible ? "scale-100 opacity-100 pointer-events-auto" : "scale-95 opacity-0 pointer-events-none"
+          }`}
+        >
+          <div className="flex-1 flex flex-col bg-gradient-to-b from-[#154be2]/[0.12] via-white/80 to-white/95 backdrop-blur-xl py-1 shadow-[0_12px_36px_rgba(21,75,226,0.12)] rounded-[24px] border border-white/60 relative">
+            <button
+              onClick={() => setIsMenuVisible(false)}
+              className="absolute -top-3 right-6 bg-white/90 backdrop-blur-sm text-[#8E94B7] hover:text-[#181a2c] size-6 rounded-full border border-blue-100/55 shadow-sm transition-all hover:scale-105 active:scale-95 flex items-center justify-center z-50 cursor-pointer"
+              title="Sembunyikan Menu"
+            >
+              <span className="material-symbols-outlined text-xs font-bold">keyboard_arrow_down</span>
+            </button>
+            
+            <div className="flex flex-row items-center justify-around h-13 px-2">
+              {hasOverviewTab && (
+                <button
+                  onClick={() => setActiveTab("overview")}
+                  className={`flex flex-col items-center justify-center h-11 px-2.5 rounded-xl transition-all duration-200 select-none ${
+                    activeTab === "overview" ? "bg-[#154be2]/12 text-[#154be2] font-extrabold" : "text-[#8E94B7] hover:text-[#181a2c]"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-[18px] leading-tight ${activeTab === "overview" ? "font-semibold" : ""}`}>
+                    analytics
+                  </span>
+                  <span className="text-[7.5px] font-bold uppercase tracking-wider leading-none mt-0.5">Overview</span>
+                </button>
+              )}
+              
+              {hasPartnerTab && (
+                <button
+                  onClick={() => setActiveTab("partner")}
+                  className={`flex flex-col items-center justify-center h-11 px-2.5 rounded-xl transition-all duration-200 select-none ${
+                    activeTab === "partner" ? "bg-[#154be2]/12 text-[#154be2] font-extrabold" : "text-[#8E94B7] hover:text-[#181a2c]"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-[18px] leading-tight ${activeTab === "partner" ? "font-semibold" : ""}`}>
+                    handshake
+                  </span>
+                  <span className="text-[7.5px] font-bold uppercase tracking-wider leading-none mt-0.5">Partner</span>
+                </button>
+              )}
+              
+              {hasStockTab && (
+                <button
+                  onClick={() => setActiveTab("summary")}
+                  className={`flex flex-col items-center justify-center h-11 px-2.5 rounded-xl transition-all duration-200 select-none ${
+                    activeTab === "summary" ? "bg-[#154be2]/12 text-[#154be2] font-extrabold" : "text-[#8E94B7] hover:text-[#181a2c]"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-[18px] leading-tight ${activeTab === "summary" ? "font-semibold" : ""}`}>
+                    donut_large
+                  </span>
+                  <span className="text-[7.5px] font-bold uppercase tracking-wider leading-none mt-0.5">Stock</span>
+                </button>
+              )}
+              
+              {hasPogTab && (
+                <button
+                  onClick={() => setActiveTab("pog")}
+                  className={`flex flex-col items-center justify-center h-11 px-2.5 rounded-xl transition-all duration-200 select-none ${
+                    activeTab === "pog" ? "bg-[#154be2]/12 text-[#154be2] font-extrabold" : "text-[#8E94B7] hover:text-[#181a2c]"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-[18px] leading-tight ${activeTab === "pog" ? "font-semibold" : ""}`}>
+                    trending_up
+                  </span>
+                  <span className="text-[7.5px] font-bold uppercase tracking-wider leading-none mt-0.5">POG</span>
+                </button>
+              )}
+              
+              {hasTempTab && (
+                <button
+                  onClick={() => setActiveTab("temp")}
+                  className={`flex flex-col items-center justify-center h-11 px-2.5 rounded-xl transition-all duration-200 select-none ${
+                    activeTab === "temp" ? "bg-[#154be2]/12 text-[#154be2] font-extrabold" : "text-[#8E94B7] hover:text-[#181a2c]"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-[19px] leading-tight ${activeTab === "temp" ? "font-semibold" : ""}`}>
+                    assignment
+                  </span>
+                  <span className="text-[7.5px] font-bold uppercase tracking-wider leading-none mt-0.5">Temp</span>
+                </button>
+              )}
+              
+              {hasAccessTab && (
+                <button
+                  onClick={() => setActiveTab("access")}
+                  className={`flex flex-col items-center justify-center h-11 px-2.5 rounded-xl transition-all duration-200 select-none ${
+                    activeTab === "access" ? "bg-[#154be2]/12 text-[#154be2] font-extrabold" : "text-[#8E94B7] hover:text-[#181a2c]"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-[19px] leading-tight ${activeTab === "access" ? "font-semibold" : ""}`}>
+                    admin_panel_settings
+                  </span>
+                  <span className="text-[7.5px] font-bold uppercase tracking-wider leading-none mt-0.5">Access</span>
+                </button>
+              )}
+            </div>
+          </div>
+
+          {hasHomeTab ? (
+            <button
+              onClick={() => setActiveTab("home")}
+              className="flex items-center justify-center shrink-0 size-[56px] rounded-full transition-all duration-200 select-none shadow-[0_8px_20px_rgba(21,75,226,0.35)] active:scale-95 cursor-pointer text-white bg-gradient-to-tr from-[#154be2] to-cyan-500"
+            >
+              <span className="material-symbols-outlined text-[26px]">edit_note</span>
+            </button>
+          ) : hasOverviewTab ? (
+            <button
+              onClick={() => setActiveTab("overview")}
+              className="flex items-center justify-center shrink-0 size-[56px] rounded-full transition-all duration-200 select-none shadow-[0_8px_20px_rgba(21,75,226,0.35)] active:scale-95 cursor-pointer text-white bg-gradient-to-tr from-[#154be2] to-cyan-500"
+            >
+              <span className="material-symbols-outlined text-[26px]">analytics</span>
+            </button>
+          ) : null}
+        </div>
+
+        {!isMenuVisible && (
+          <button
+            onClick={() => setIsMenuVisible(true)}
+            className="md:hidden fixed bottom-4 right-4 bg-gradient-to-r from-primary to-cyan-400 text-white size-9 rounded-full shadow-[0_6px_20px_rgba(21,75,226,0.25)] flex items-center justify-center hover:opacity-95 active:scale-[0.98] transition-all z-50 animate-in fade-in slide-in-from-bottom-4 duration-300 cursor-pointer"
+            title="Tampilkan Menu"
+          >
+            <span className="material-symbols-outlined text-base">keyboard_arrow_up</span>
+          </button>
+        )}
+      </div>
+    ) : (
+      <Login onLogin={handleUserLogin} />
+    );
+  }
