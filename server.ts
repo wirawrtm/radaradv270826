@@ -120,6 +120,44 @@ app.use((req, res, next) => {
   next();
 });
 
+// Endpoint to directly download clean App.tsx
+app.get("/api/download/app-tsx", (req, res) => {
+  const filePath = path.join(process.cwd(), "src", "App.tsx");
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).send("File App.tsx not found");
+  }
+  res.setHeader("Content-Disposition", 'attachment; filename="App.tsx"');
+  res.setHeader("Content-Type", "text/plain; charset=utf-8");
+  res.sendFile(filePath);
+});
+
+// Endpoint to download the entire project as a clean ZIP
+app.get("/api/download/project-zip", (req, res) => {
+  const zipPath = path.join(process.cwd(), "public", "project.zip");
+  if (!fs.existsSync(zipPath)) {
+    try {
+      const { createZip } = require("./create_zip.cjs");
+      createZip(zipPath);
+    } catch (e) {}
+  }
+  if (!fs.existsSync(zipPath)) {
+    return res.status(404).send("Project ZIP not found");
+  }
+  res.setHeader("Content-Disposition", 'attachment; filename="radar-advanta.zip"');
+  res.setHeader("Content-Type", "application/zip");
+  res.sendFile(zipPath);
+});
+
+// Endpoint to view raw App.tsx
+app.get("/api/raw/app-tsx", (req, res) => {
+  const filePath = path.join(process.cwd(), "src", "App.tsx");
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).send("File App.tsx not found");
+  }
+  res.setHeader("Content-Type", "text/plain; charset=utf-8");
+  res.sendFile(filePath);
+});
+
 // Google Sheets API Helpers
 const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 const clientEmail = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL;
@@ -1043,9 +1081,17 @@ async function handleGetChannels(user: string) {
       const cleanRowPos = rowPos.replace(/\s+/g, "");
       const levelIdx = empHeaders.findIndex((h: any) => /level|grade/i.test(String(h).trim()));
       const rowLevel = levelIdx !== -1 ? String(matchedRow[levelIdx] || "").trim().toLowerCase() : "";
+      const numLevel = parseInt(rowLevel, 10);
       if (
         cleanRowPos === "businessanalyst" ||
         cleanRowPos === "analyst" ||
+        cleanRowPos === "vegetablessalesmanager" ||
+        cleanRowPos === "commerciallead" ||
+        cleanRowPos === "countryhead" ||
+        lowerUser === "suryantohead" ||
+        lowerUser === "daniheadoffice" ||
+        lowerUser === "yashheadoffice" ||
+        (!isNaN(numLevel) && numLevel >= 4) ||
         rowLevel === "admin"
       ) {
         isBusinessAnalyst = true;
@@ -3241,6 +3287,38 @@ async function handleUpdatePartner(body: any) {
     const successUpdate = await updateSheetValues("channel", data);
     if (!successUpdate) {
       throw new Error("Gagal menyimpan perubahan partner ke database.");
+    }
+
+    // Sync category / channel name update to working sheet if records exist
+    try {
+      const workingData = await getSheetValues("working");
+      if (workingData && workingData.length > 1) {
+        const wHeaders = workingData[0];
+        const wChannelIdx = wHeaders.findIndex((h: any) => /channel|kiosk|toko|distributor|nama toko/i.test(String(h).trim()));
+        const wCatIdx = wHeaders.findIndex((h: any) => /category|kategori/i.test(String(h).trim()));
+        const cleanTarget = cleanForMatch(body.originalName || body.name);
+
+        let workingChanged = false;
+        if (wChannelIdx !== -1) {
+          for (let r = 1; r < workingData.length; r++) {
+            if (cleanForMatch(workingData[r][wChannelIdx]) === cleanTarget) {
+              if (body.name && workingData[r][wChannelIdx] !== body.name) {
+                workingData[r][wChannelIdx] = body.name;
+                workingChanged = true;
+              }
+              if (wCatIdx !== -1 && body.category && workingData[r][wCatIdx] !== body.category) {
+                workingData[r][wCatIdx] = body.category;
+                workingChanged = true;
+              }
+            }
+          }
+        }
+        if (workingChanged) {
+          await updateSheetValues("working", workingData);
+        }
+      }
+    } catch (syncErr) {
+      console.warn("Could not sync updated category to working sheet:", syncErr);
     }
   } else {
     console.warn("Partner row not found for update, attempting to add instead");

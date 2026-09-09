@@ -616,12 +616,24 @@ const getDdaOfUser = (
     ) as any;
     const rootPos = rootProfile?.position || "";
     const rootLevelClean = rootProfile?.level ? String(rootProfile.level).toLowerCase().trim() : "";
+    const rootNumLevel = parseInt(rootLevelClean, 10);
     const isBusinessAnalyst =
       cleanForMatch(rootPos) === "businessanalyst" ||
+      cleanForMatch(rootPos) === "analyst" ||
       cleanRealRoot === "adityawiratama" ||
       cleanRoot === "adityawiratama" ||
       cleanRealRoot === "aditya" ||
       cleanRoot === "aditya" ||
+      cleanRealRoot === "suryanto" ||
+      cleanRoot === "suryanto" ||
+      cleanRealRoot === "suryantobudisantoso" ||
+      cleanRoot === "suryantobudisantoso" ||
+      cleanRealRoot === "suryantohead" ||
+      cleanRoot === "suryantohead" ||
+      cleanForMatch(rootPos) === "vegetablessalesmanager" ||
+      cleanForMatch(rootPos) === "commerciallead" ||
+      cleanForMatch(rootPos) === "countryhead" ||
+      (!isNaN(rootNumLevel) && rootNumLevel >= 4) ||
       rootLevelClean === "admin";
 
     if (isBusinessAnalyst) {
@@ -1067,7 +1079,7 @@ const PartnerEditModal = ({
   }, [allCategories]);
 
   const groupsToDisplay = useMemo(() => {
-    const list = new Set(["Advanta"]);
+    const list = new Set(["Field Corn", "Vegetables", "Advanta"]);
     if (allGroups && Array.isArray(allGroups)) {
       allGroups.forEach((g) => {
         const trimmed = String(g || "").trim();
@@ -1079,6 +1091,19 @@ const PartnerEditModal = ({
     return Array.from(list);
   }, [allGroups]);
 
+  const provincesToDisplay = useMemo(() => {
+    const list = new Set<string>();
+    if (allProvinces && Array.isArray(allProvinces)) {
+      allProvinces.forEach((p) => {
+        const trimmed = String(p || "").trim();
+        if (trimmed && trimmed !== "-") {
+          list.add(trimmed);
+        }
+      });
+    }
+    return Array.from(list);
+  }, [allProvinces]);
+
   useEffect(() => {
     const userProv = String(userData?.province || userData?.area || "").trim();
     const userGroup = String(userData?.group || "").trim() || "Advanta";
@@ -1089,13 +1114,13 @@ const PartnerEditModal = ({
       const matchedPic = activeEmployees?.find((p) => cleanForMatch(p.name) === cleanRawPic)?.name || rawPic;
       setNewPic(matchedPic);
       setPartnerName(String(item.name || "").trim());
-      setCategory(String(item.category || "").trim());
-      setProvince(String(item.province || "").trim() || userProv);
+      setCategory(String(item.category || "").trim() || "R1");
+      setProvince(String(item.province || item.area || "").trim() || userProv);
       setGroup(String(item.group || "").trim() || userGroup);
     } else {
       setNewPic("");
       setPartnerName("");
-      setCategory("");
+      setCategory("R1");
       setProvince(userProv);
       setGroup(userGroup);
     }
@@ -1106,12 +1131,12 @@ const PartnerEditModal = ({
   const isAdd = !!item?.isAdd;
 
   const handleSave = () => {
-    onSave(isAdd ? null : item.id, newPic, {
+    onSave(isAdd ? null : item?.id, newPic, {
       isAdd,
       name: partnerName.trim(),
       category: category.trim(),
-      province: province.trim(),
-      group: group.trim(),
+      province: province.trim() || item?.province || item?.area || "",
+      group: group.trim() || item?.group || "Advanta",
       originalName: isAdd ? "" : (item?.name || ""),
       originalPic: isAdd ? "" : (item?.pic || ""),
       originalProvince: isAdd ? "" : (item?.province || item?.area || ""),
@@ -1123,13 +1148,11 @@ const PartnerEditModal = ({
   const isFormValid =
     partnerName.trim() !== "" &&
     category.trim() !== "" &&
-    province.trim() !== "" &&
-    group.trim() !== "" &&
     newPic.trim() !== "";
 
   return (
     <div className="fixed inset-0 z-[110] bg-[#181a2c]/50 backdrop-blur-md flex items-center justify-center p-6">
-      <div className="bg-white w-full max-w-[380px] rounded-[24px] p-8 shadow-2xl border border-[#edecff] animate-in fade-in zoom-in-95 duration-200">
+      <div className="bg-white w-full max-w-[420px] max-h-[90vh] overflow-y-auto rounded-[24px] p-8 shadow-2xl border border-[#edecff] animate-in fade-in zoom-in-95 duration-200 custom-scrollbar">
         <div className="size-14 bg-[#edecff] rounded-full flex items-center justify-center text-primary mb-5">
           <span className="material-symbols-outlined text-[28px]">
             {isAdd ? "add_business" : "manage_accounts"}
@@ -1155,7 +1178,7 @@ const PartnerEditModal = ({
               disabled={!isAdd}
               className={`w-full h-11 border border-[#edecff] rounded-xl px-4 text-xs font-bold outline-none transition-all ${
                 !isAdd
-                  ? "bg-gray-100 cursor-not-allowed text-gray-400"
+                  ? "bg-gray-100 cursor-not-allowed text-gray-500"
                   : "bg-[#fbf8ff] text-[#111] focus:border-primary focus:ring-1 focus:ring-primary/10"
               }`}
               placeholder="Contoh: Kios Mandiri Tani"
@@ -1163,9 +1186,7 @@ const PartnerEditModal = ({
             />
           </div>
 
-
-
-          {/* 3. Category */}
+          {/* 2. Category */}
           <div>
             <label className="text-[10px] text-[#8E94B7] font-bold uppercase tracking-wider ml-1 mb-1.5 block">
               Kategori Partner <span className="text-red-500">*</span>
@@ -1174,7 +1195,7 @@ const PartnerEditModal = ({
               <select
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
-                className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] focus:border-primary focus:ring-1 focus:ring-primary/10 rounded-xl px-4 text-xs font-bold text-[#111] outline-none transition-all appearance-none pr-10"
+                className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] focus:border-primary focus:ring-1 focus:ring-primary/10 rounded-xl px-4 text-xs font-bold text-[#111] outline-none transition-all appearance-none pr-10 cursor-pointer"
                 required
               >
                 <option value="">-- Pilih Kategori --</option>
@@ -1190,9 +1211,7 @@ const PartnerEditModal = ({
             </div>
           </div>
 
-
-
-          {/* 5. PIC */}
+          {/* 3. PIC */}
           <div>
             <label className="text-[10px] text-[#8E94B7] font-bold uppercase tracking-wider ml-1 mb-1.5 block">
               PIC (Karyawan Aktif) <span className="text-red-500">*</span>
@@ -1201,7 +1220,7 @@ const PartnerEditModal = ({
               <select
                 value={newPic}
                 onChange={(e) => setNewPic(e.target.value)}
-                className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] rounded-xl px-4 font-bold text-xs text-[#111] outline-none focus:border-primary transition-all appearance-none pr-10"
+                className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] rounded-xl px-4 font-bold text-xs text-[#111] outline-none focus:border-primary transition-all appearance-none pr-10 cursor-pointer"
                 required
               >
                 <option value="">-- Pilih PIC --</option>
@@ -1215,6 +1234,63 @@ const PartnerEditModal = ({
                 expand_more
               </span>
             </div>
+          </div>
+
+          {/* 4. Divisi / Group */}
+          <div>
+            <label className="text-[10px] text-[#8E94B7] font-bold uppercase tracking-wider ml-1 mb-1.5 block">
+              Divisi / Group
+            </label>
+            <div className="relative">
+              <select
+                value={group}
+                onChange={(e) => setGroup(e.target.value)}
+                className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] rounded-xl px-4 font-bold text-xs text-[#111] outline-none focus:border-primary transition-all appearance-none pr-10 cursor-pointer"
+              >
+                {groupsToDisplay.map((grp, idx) => (
+                  <option key={idx} value={grp}>
+                    {grp}
+                  </option>
+                ))}
+              </select>
+              <span className="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-[#8E94B7] pointer-events-none text-lg">
+                expand_more
+              </span>
+            </div>
+          </div>
+
+          {/* 5. Provinsi / Wilayah */}
+          <div>
+            <label className="text-[10px] text-[#8E94B7] font-bold uppercase tracking-wider ml-1 mb-1.5 block">
+              Provinsi / Wilayah
+            </label>
+            {provincesToDisplay.length > 0 ? (
+              <div className="relative">
+                <select
+                  value={province}
+                  onChange={(e) => setProvince(e.target.value)}
+                  className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] rounded-xl px-4 font-bold text-xs text-[#111] outline-none focus:border-primary transition-all appearance-none pr-10 cursor-pointer"
+                >
+                  <option value="">-- Pilih Wilayah / Provinsi --</option>
+                  {provincesToDisplay.map((prov, idx) => (
+                    <option key={idx} value={prov}>
+                      {prov}
+                    </option>
+                  ))}
+                </select>
+                <span className="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-[#8E94B7] pointer-events-none text-lg">
+                  expand_more
+                </span>
+              </div>
+            ) : (
+              <input
+                type="text"
+                value={province}
+                onChange={(e) => setProvince(e.target.value)}
+                className="w-full h-11 bg-[#fbf8ff] border border-[#edecff] rounded-xl px-4 text-xs font-bold text-[#111] outline-none focus:border-primary transition-all"
+                placeholder="Contoh: Jawa Timur / Sumatera"
+              />
+            )}
           </div>
         </div>
 
@@ -2049,10 +2125,25 @@ const Dashboard = ({
 
   const isBusinessAnalyst = useMemo(() => {
     if (!userData) return false;
-    const isBA = (userData.position &&
-        cleanForMatch(userData.position) === "businessanalyst") ||
-      cleanForMatch(userData.name || "") === "adityawiratama" ||
-      cleanForMatch(userData.name || "") === "aditya";
+    const posClean = userData.position ? cleanForMatch(userData.position) : "";
+    const nameClean = cleanForMatch(userData.name || "");
+    const userClean = cleanForMatch(userData.user || "");
+    const numLevel = userData.level ? parseInt(String(userData.level).trim(), 10) : NaN;
+    const isBA =
+      posClean === "businessanalyst" ||
+      posClean === "analyst" ||
+      nameClean === "adityawiratama" ||
+      nameClean === "aditya" ||
+      userClean === "adityahead" ||
+      posClean === "vegetablessalesmanager" ||
+      posClean === "commerciallead" ||
+      posClean === "countryhead" ||
+      nameClean === "suryanto" ||
+      nameClean === "suryantobudisantoso" ||
+      userClean === "suryantohead" ||
+      userClean === "daniheadoffice" ||
+      userClean === "yashheadoffice" ||
+      (!isNaN(numLevel) && numLevel >= 4);
     const isAdmin = userData.level && String(userData.level).toLowerCase().trim() === "admin";
     return isBA || isAdmin;
   }, [userData]);
@@ -2491,11 +2582,24 @@ const Dashboard = ({
 
     const myNameClean = cleanForMatch(userData.name || "");
     const isAdmin = userData.level && String(userData.level).toLowerCase().trim() === "admin";
+    const posClean = userData.position ? cleanForMatch(userData.position) : "";
+    const userClean = cleanForMatch(userData.user || "");
+    const numLevel = userData.level ? parseInt(String(userData.level).trim(), 10) : NaN;
     const isBusinessAnalyst =
-      (userData.position &&
-        cleanForMatch(userData.position) === "businessanalyst") ||
-      cleanForMatch(userData.name) === "adityawiratama" ||
-      cleanForMatch(userData.name) === "aditya" ||
+      posClean === "businessanalyst" ||
+      posClean === "analyst" ||
+      myNameClean === "adityawiratama" ||
+      myNameClean === "aditya" ||
+      userClean === "adityahead" ||
+      posClean === "vegetablessalesmanager" ||
+      posClean === "commerciallead" ||
+      posClean === "countryhead" ||
+      myNameClean === "suryanto" ||
+      myNameClean === "suryantobudisantoso" ||
+      userClean === "suryantohead" ||
+      userClean === "daniheadoffice" ||
+      userClean === "yashheadoffice" ||
+      (!isNaN(numLevel) && numLevel >= 4) ||
       isAdmin;
 
     let rawList: string[] = [];
@@ -2999,11 +3103,25 @@ const Dashboard = ({
 
   useEffect(() => {
     const isAdmin = userData.level && String(userData.level).toLowerCase().trim() === "admin";
+    const posClean = userData.position ? cleanForMatch(userData.position) : "";
+    const nameClean = cleanForMatch(userData.name || "");
+    const userClean = cleanForMatch(userData.user || "");
+    const numLevel = userData.level ? parseInt(String(userData.level).trim(), 10) : NaN;
     const isBusinessAnalyst =
-      (userData.position &&
-        cleanForMatch(userData.position) === "businessanalyst") ||
-      cleanForMatch(userData.name) === "adityawiratama" ||
-      cleanForMatch(userData.name) === "aditya" ||
+      posClean === "businessanalyst" ||
+      posClean === "analyst" ||
+      nameClean === "adityawiratama" ||
+      nameClean === "aditya" ||
+      userClean === "adityahead" ||
+      posClean === "vegetablessalesmanager" ||
+      posClean === "commerciallead" ||
+      posClean === "countryhead" ||
+      nameClean === "suryanto" ||
+      nameClean === "suryantobudisantoso" ||
+      userClean === "suryantohead" ||
+      userClean === "daniheadoffice" ||
+      userClean === "yashheadoffice" ||
+      (!isNaN(numLevel) && numLevel >= 4) ||
       isAdmin;
     if (isBusinessAnalyst) {
       const others = teamMembers.filter(
@@ -3064,25 +3182,6 @@ const Dashboard = ({
 
   const workingCategoryMap = useMemo(() => {
     const map: Record<string, string> = {};
-    if (rawWorkingData && Array.isArray(rawWorkingData)) {
-      rawWorkingData.forEach((d) => {
-        const kClean = cleanForMatch(d.kiosk);
-        const rawCat =
-          d.category ||
-          d.Category ||
-          d.CATEGORY ||
-          d.kategori ||
-          d.Kategori ||
-          d.klasifikasi ||
-          d.cat ||
-          d.Cat ||
-          "";
-        const cat = getValidCategory(rawCat, undefined, d.kiosk);
-        if (kClean && cat && cat !== "Uncategorized") {
-          map[kClean] = cat;
-        }
-      });
-    }
     if (kiosks && Array.isArray(kiosks)) {
       kiosks.forEach((k) => {
         const kClean = cleanForMatch(k.name);
@@ -3098,6 +3197,25 @@ const Dashboard = ({
           "";
         const cat = getValidCategory(rawCat, undefined, k.name);
         if (kClean && cat && cat !== "Uncategorized") {
+          map[kClean] = cat;
+        }
+      });
+    }
+    if (rawWorkingData && Array.isArray(rawWorkingData)) {
+      rawWorkingData.forEach((d) => {
+        const kClean = cleanForMatch(d.kiosk);
+        const rawCat =
+          d.category ||
+          d.Category ||
+          d.CATEGORY ||
+          d.kategori ||
+          d.Kategori ||
+          d.klasifikasi ||
+          d.cat ||
+          d.Cat ||
+          "";
+        const cat = getValidCategory(rawCat, undefined, d.kiosk);
+        if (kClean && cat && cat !== "Uncategorized") {
           if (!map[kClean]) map[kClean] = cat;
         }
       });
@@ -3110,9 +3228,9 @@ const Dashboard = ({
     (kiosks || []).forEach((k) => {
       const cleanName = cleanForMatch(k.name);
       if (cleanName) {
-        const dbCat = workingCategoryMap[cleanName];
+        const rawCat = k.category || workingCategoryMap[cleanName];
         const validCat = getValidCategory(
-          dbCat || k.category,
+          rawCat,
           k.category,
           k.name,
           workingCategoryMap,
@@ -3131,7 +3249,7 @@ const Dashboard = ({
         if (cleanName) {
           const dbCat = workingCategoryMap[cleanName];
           const validCat = getValidCategory(
-            d.category || dbCat,
+            dbCat || d.category,
             undefined,
             kName,
             workingCategoryMap,
@@ -4218,13 +4336,14 @@ const Dashboard = ({
         } else {
           setKiosks((prev) =>
             prev.map((k) => {
-              const matchesId = String(k.id) === String(id);
-              if (matchesId) {
+              const matchesId = Boolean(id) && String(k.id) === String(id);
+              const matchesName = cleanForMatch(k.name) === cleanForMatch(payload.originalName || payload.name);
+              if (matchesId || matchesName) {
                 return {
                   ...k,
                   name: payload.name || k.name,
                   category: payload.category || k.category,
-                  pic: payload.pic,
+                  pic: payload.pic || k.pic,
                   province: payload.province || k.province || "",
                   area: payload.province || k.area || "",
                   group: payload.group || k.group || "",
@@ -4233,6 +4352,9 @@ const Dashboard = ({
               return k;
             }),
           );
+          if (payload.category) {
+            setMappingCategory(payload.category);
+          }
         }
         setPartnerEditModal({ isOpen: false, item: null });
         setChannelsRefreshKey((prev) => prev + 1);
@@ -10816,7 +10938,7 @@ const Dashboard = ({
                             check_circle
                           </span>
                           <p className="text-xs font-semibold text-emerald-800">
-                            鉁 LOT ditemukan di database!
+                            [OK] LOT ditemukan di database!
                           </p>
                         </div>
                         <div className="bg-white shadow-[0_4px_16px_rgba(21,75,226,0.06)] p-4 rounded-[20px] animate-in slide-in-from-top-2">
@@ -10875,7 +10997,7 @@ const Dashboard = ({
                             check_circle
                           </span>
                           <p className="text-xs font-semibold text-emerald-800">
-                            鉁 LOT ditemukan di database!
+                            [OK] LOT ditemukan di database!
                           </p>
                         </div>
                         <div className="bg-white shadow-[0_4px_16px_rgba(21,75,226,0.06)] p-4 rounded-[18px] animate-in slide-in-from-top-2">
@@ -10898,7 +11020,7 @@ const Dashboard = ({
                         </span>
                         <div className="flex flex-col">
                           <p className="text-xs font-bold text-red-700 leading-tight">
-                            鈿狅笍 LOT tidak ditemukan di database!
+                            [!] LOT tidak ditemukan di database!
                           </p>
                           <p className="text-[10px] text-red-600 mt-0.5 font-medium leading-relaxed">
                             LOT ini belum terdaftar. Agar data stock tetap valid, Anda wajib melengkapi data Hybrid & Komoditas secara manual di bawah ini.
@@ -12916,7 +13038,7 @@ const Dashboard = ({
                       <span className="material-symbols-outlined text-[16px] animate-pulse text-amber-600">
                         info
                       </span>
-                      Geser tabel ke samping untuk melihat seluruh kolom bulan 鈫
+                      Geser tabel ke samping untuk melihat seluruh kolom bulan
                     </div>
                   )}
                   <div className="overflow-x-auto min-w-full">
